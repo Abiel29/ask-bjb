@@ -1,0 +1,233 @@
+{
+    "produkBankBJB": [
+        {
+            "no": 1,
+            "namaProduk": "Kredit Reguler (KMU, KUKM)",
+            "kategoriPerusahaan": "Kredit UMKM",
+            "listProduk": "Kredit modal kerja dan investasi untuk usaha mikro, kecil, menengah.",
+            "jenisPembiayaan": "Tidak disebutkan",
+            "deskripsi": "Deskripsi untuk produk Kredit Reguler (KMU, KUKM).",
+            "plafon": "Berdasarkan kebutuhan usaha.",
+            "requirements": [
+                "Persyaratan akan ditentukan sesuai jenis produk."
+            ],
+            "benefits": [
+                "Kredit modal kerja dan investasi untuk usaha mikro",
+                "kecil",
+                "menengah."
+            ],
+            "interestRate": "Sesuai ketentuan Bank BJB.",
+            "termsAndConditions": [
+                "Berdasarkan jenis usaha",
+                "agunan",
+                "dan analisis 5C (Character",
+                "Capacity",
+                "Capital",
+                "Collateral",
+                "Condition)."
+            ]
+        },
+        {
+            "no": 2,
+            "namaProduk": "Produk Surat Berharga Negara (SBN)",
+            "kategoriPerusahaan": "Produk Investasi",
+            "listProduk": "Investasi aman dengan kupon lebih tinggi dari deposito dan pajak lebih rendah.",
+            "jenisPembiayaan": "Tidak disebutkan",
+            "deskripsi": "Deskripsi untuk produk Produk Surat Berharga Negara (SBN).",
+            "plafon": "Minimal pembelian Rp1 juta, sesuai ketentuan pemerintah.",
+            "requirements": [
+                "Persyaratan akan ditentukan sesuai jenis produk."
+            ],
+            "benefits": [
+                "Investasi aman dengan kupon lebih tinggi dari deposito dan pajak lebih rendah."
+            ],
+            "interestRate": "Sesuai ketentuan Bank BJB.",
+            "termsAndConditions": [
+                "Ketentuan berlaku sesuai kebijakan Bank BJB."
+            ]
+        },
+        {
+            "no": 3,
+            "namaProduk": "BJB Kredit Modal Kerja",
+            "kategoriPerusahaan": "UMKM",
+            "listProduk": "Suku bunga kompetitif, Persetujuan cepat untuk pelaku UMKM, Dukungan konsultasi keuangan gratis",
+            "jenisPembiayaan": "Tidak disebutkan",
+            "deskripsi": "Produk ini bertujuan untuk membantu UMKM dalam memenuhi kebutuhan modal kerja, seperti pembelian bahan baku atau keperluan operasional lainnya.",
+            "plafon": "Rp500 juta hingga lebih dari Rp10 miliar",
+            "requirements": [
+                "Fotokopi identitas pemilik perusahaan (KTP",
+                "NPWP)",
+                "Surat Izin Usaha Perdagangan (SIUP) dan Tanda Daftar Perusahaan (TDP)",
+                "Laporan keuangan terakhir 2 tahun",
+                "Proposal rencana penggunaan dana"
+            ],
+            "benefits": [
+                "Suku bunga kompetitif",
+                "Persetujuan cepat untuk pelaku UMKM",
+                "Dukungan konsultasi keuangan gratis"
+            ],
+            "interestRate": "Mulai dari 8% per tahun",
+            "termsAndConditions": [
+                "Usaha telah berjalan minimal 2 tahun",
+                "Rekening aktif di Bank BJB selama 6 bulan terakhir",
+                "Penggunaan dana sesuai dengan rencana yang diajukan"
+            ]
+        },
+        {
+            "no": 4,
+            "namaProduk": "BJB Kredit Investasi",
+            "kategoriPerusahaan": "Perusahaan Manufaktur",
+            "listProduk": "Tenor panjang hingga 15 tahun, Suku bunga tetap selama periode awal, Fasilitas grace period hingga 2 tahun",
+            "jenisPembiayaan": "Tidak disebutkan",
+            "deskripsi": "Kredit ini dirancang untuk mendukung kebutuhan investasi jangka panjang perusahaan manufaktur, seperti pembelian mesin dan pembangunan infrastruktur.",
+            "plafon": "Rp1 juta hingga Rp20 miliar",
+            "requirements": [
+                "Dokumen legalitas perusahaan (akta pendirian",
+                "izin usaha",
+                "NPWP)",
+                "Laporan keuangan terakhir 3 tahun",
+                "Rencana investasi terperinci"
+            ],
+            "benefits": [
+                "Tenor panjang hingga 15 tahun",
+                "Suku bunga tetap selama periode awal",
+                "Fasilitas grace period hingga 2 tahun"
+            ],
+            "interestRate": "Mulai dari 7% per tahun",
+            "termsAndConditions": [
+                "Investasi wajib dilakukan di wilayah Indonesia",
+                "Agunan berupa aset yang terkait dengan investasi",
+                "Pembayaran cicilan sesuai jadwal yang disepakati"
+            ]
+        },
+        {
+            "no": 5,
+            "namaProduk": "BJB Kredit Multiguna Usaha",
+            "kategoriPerusahaan": "Perusahaan Jasa",
+            "listProduk": "Proses cepat, Persyaratan dokumen mudah, Bunga bersaing",
+            "jenisPembiayaan": "Tidak disebutkan",
+            "deskripsi": "Diperuntukkan bagi perusahaan jasa yang membutuhkan modal untuk ekspansi atau renovasi tempat usaha.",
+            "plafon": "Rp50 juta hingga Rp5 miliar",
+            "requirements": [
+                "Fotokopi KTP pemilik perusahaan",
+                "Surat izin usaha",
+                "Laporan keuangan terbaru",
+                "Rencana anggaran untuk ekspansi atau renovasi"
+            ],
+            "benefits": [
+                "Proses cepat",
+                "Persyaratan dokumen mudah",
+                "Bunga bersaing"
+            ],
+            "interestRate": "Mulai dari 8.5% per tahun",
+            "termsAndConditions": [
+                "Penggunaan dana sesuai proposal",
+                "Usaha aktif minimal 1 tahun",
+                "Menyediakan agunan bila diperlukan"
+            ]
+        },
+        {
+            "no": 6,
+            "namaProduk": "BJB Kredit Konstruksi",
+            "kategoriPerusahaan": "Perusahaan Konstruksi",
+            "listProduk": "Cocok untuk berbagai skala proyek, Suku bunga bersaing, Proses pencairan bertahap sesuai progres proyek",
+            "jenisPembiayaan": "Tidak disebutkan",
+            "deskripsi": "Kredit ini mendukung perusahaan konstruksi dalam melaksanakan proyek dan pembelian bahan bangunan.",
+            "plafon": "Rp500 juta hingga lebih dari Rp10 miliar",
+            "requirements": [
+                "Surat perjanjian proyek konstruksi",
+                "Dokumen legalitas perusahaan",
+                "Rencana pengelolaan dana proyek",
+                "Laporan keuangan terakhir"
+            ],
+            "benefits": [
+                "Cocok untuk berbagai skala proyek",
+                "Suku bunga bersaing",
+                "Proses pencairan bertahap sesuai progres proyek"
+            ],
+            "interestRate": "Mulai dari 7.5% per tahun",
+            "termsAndConditions": [
+                "Proyek terdaftar di wilayah Indonesia",
+                "Dana hanya digunakan untuk pembiayaan proyek yang disetujui",
+                "Agunan berupa aset terkait proyek"
+            ]
+        },
+        {
+            "no": 7,
+            "namaProduk": "BJB Kredit Energi",
+            "kategoriPerusahaan": "Perusahaan Energi dan Sumber Daya Alam",
+            "listProduk": "Fasilitas tenor panjang, Bunga bersaing untuk proyek besar, Fasilitas pendampingan manajemen proyek",
+            "jenisPembiayaan": "Tidak disebutkan",
+            "deskripsi": "Kredit ini mendukung pengembangan infrastruktur dan pembelian alat berat di sektor energi.",
+            "plafon": "Rp1 juta hingga lebih dari Rp20 miliar",
+            "requirements": [
+                "Rencana proyek pengembangan energi",
+                "Laporan keuangan terakhir",
+                "Dokumen legalitas perusahaan"
+            ],
+            "benefits": [
+                "Fasilitas tenor panjang",
+                "Bunga bersaing untuk proyek besar",
+                "Fasilitas pendampingan manajemen proyek"
+            ],
+            "interestRate": "Mulai dari 7% per tahun",
+            "termsAndConditions": [
+                "Penggunaan dana sesuai proyek yang diajukan",
+                "Dana hanya digunakan untuk sektor energi",
+                "Agunan berupa aset proyek atau alat berat"
+            ]
+        },
+        {
+            "no": 8,
+            "namaProduk": "BJB Kredit Pendidikan",
+            "kategoriPerusahaan": "Perusahaan Pendidikan",
+            "listProduk": "Bunga rendah untuk sektor pendidikan, Fasilitas tenor panjang, Dukungan pembiayaan sesuai kebutuhan",
+            "jenisPembiayaan": "Tidak disebutkan",
+            "deskripsi": "Kredit ini mendukung sektor pendidikan dalam pengadaan fasilitas dan alat pendidikan.",
+            "plafon": "Rp10 juta hingga Rp500 juta",
+            "requirements": [
+                "Surat izin operasional pendidikan",
+                "Rencana pengadaan fasilitas pendidikan",
+                "Laporan keuangan terakhir"
+            ],
+            "benefits": [
+                "Bunga rendah untuk sektor pendidikan",
+                "Fasilitas tenor panjang",
+                "Dukungan pembiayaan sesuai kebutuhan"
+            ],
+            "interestRate": "Mulai dari 6.5% per tahun",
+            "termsAndConditions": [
+                "Dana digunakan untuk pengadaan fasilitas pendidikan",
+                "Lembaga pendidikan terdaftar resmi",
+                "Agunan berupa aset pendidikan"
+            ]
+        },
+        {
+            "no": 9,
+            "namaProduk": "BJB Faskes",
+            "kategoriPerusahaan": "Perusahaan Kesehatan",
+            "listProduk": "Pembiayaan untuk pengadaan alat kesehatan, renovasi fasilitas, dan pengembangan infrastruktur kesehatan.",
+            "jenisPembiayaan": "Kredit Investasi dan Operasional",
+            "deskripsi": "BJB Faskes adalah produk pembiayaan yang dirancang khusus untuk mendukung sektor kesehatan dalam pengadaan alat kesehatan, renovasi fasilitas, dan pengembangan infrastruktur.",
+            "plafon": "Rp50 juta hingga Rp10 miliar",
+            "requirements": [
+                "Dokumen legalitas usaha kesehatan",
+                "Proposal pengadaan atau renovasi fasilitas kesehatan",
+                "Laporan keuangan terakhir",
+                "Surat izin operasional dari instansi terkait"
+            ],
+            "benefits": [
+                "Fasilitas pembiayaan dengan bunga bersaing",
+                "Proses pengajuan mudah",
+                "Dukungan konsultasi manajemen keuangan",
+                "Cocok untuk berbagai jenis fasilitas kesehatan, termasuk rumah sakit dan klinik"
+            ],
+            "interestRate": "Mulai dari 7% per tahun",
+            "termsAndConditions": [
+                "Dana digunakan sesuai rencana yang diajukan",
+                "Agunan berupa aset yang dibiayai",
+                "Lembaga kesehatan harus terdaftar resmi di instansi terkait"
+            ]
+        }
+    ]
+}

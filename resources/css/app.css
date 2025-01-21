@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-left span {
+    display: inline-block;
+    max-width: 80%;
+    /* background-color: #e2e8f0; */
+    color: #000;
+}
+.text-right span {
+    display: inline-block;
+    max-width: 80%;
+    background-color: #bfdbfe;
+    color: #000;
+}
+
+.loading-spinner {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #ccc;
+    border-top: 2px solid #000;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.file-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Pastikan tingginya fleksibel mengikuti parent */
+    padding: 14px; /* Sesuaikan dengan padding input */
+    background-color: #f9f9f9;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    box-sizing: border-box; /* Agar padding tidak memengaruhi ukuran */
+}
+
+.file-label:hover {
+    background-color: #ebf5ff;
+    border-color: #60a5fa;
+}
+
+.clip-icon {
+    height: 20px; /* Sesuaikan ukuran ikon */
+    width: 20px;
+    color: #374151;
+}
+
+input[type="file"].hidden {
+    display: none;
+}
+
+/* Pastikan html dan body memiliki tinggi penuh */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* Atur tinggi penuh untuk elemen kontainer */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.chat-bubble {
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    max-width: 75%;
+    word-wrap: break-word;
+}
+
+.chat-bubble.user {
+    align-self: flex-end; /* Pesan pengguna di kanan */
+    background-color: #bfdbfe; /* Warna biru muda untuk user */
+    color: #000; /* Warna teks hitam */
+}
+
+.chat-bubble.assistant {
+    align-self: flex-start; /* Pesan asisten di kiri */
+    background-color: #e5e7eb; /* Warna abu-abu muda untuk asisten */
+    color: #000; /* Warna teks hitam */
+}
+
+.chat-bubble.user .chat-meta {
+    color: white; /* Ubah warna teks meta user menjadi putih */
+    font-size: 0.75rem;
+    margin-bottom: 4px;
+    text-align: left;
+}
+.chat-bubble.assistant .chat-meta {
+    color: #6b7280; /* Tetap warna hitam untuk asisten */
+    font-size: 0.75rem;
+    margin-bottom: 4px;
+    text-align: left;
+}
+.chat-content {
+    font-size: 1rem;
+    line-height: 1.5;
+    white-space: pre-wrap;
+}

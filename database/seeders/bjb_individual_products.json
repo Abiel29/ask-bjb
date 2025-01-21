@@ -1,0 +1,146 @@
+{
+    "produkBankBJB": [
+        {
+            "no": 1,
+            "namaProduk": "bjb Tandamata",
+            "kategoriPerusahaan": "Produk Dana Pihak Ketiga (Tabungan)",
+            "listProduk": "Perlindungan asuransi jiwa (khusus Gold), fasilitas autotransfer, mata uang asing (USD & SGD), hadiah langsung, dan manfaat asuransi.",
+            "jenisPembiayaan": "Tidak disebutkan",
+            "deskripsi": "Deskripsi untuk produk bjb Tandamata.",
+            "plafon": "Tidak berlaku karena ini adalah tabungan.",
+            "requirements": [
+                "Persyaratan akan ditentukan sesuai jenis produk."
+            ],
+            "benefits": [
+                "Perlindungan asuransi jiwa (khusus Gold)",
+                "fasilitas autotransfer",
+                "mata uang asing (USD & SGD)",
+                "hadiah langsung",
+                "dan manfaat asuransi."
+            ],
+            "interestRate": "Sesuai ketentuan Bank BJB.",
+            "termsAndConditions": [
+                "Setoran awal Rp50.000",
+                "saldo minimum Rp25.000",
+                "biaya administrasi Rp6.000 per bulan",
+                "biaya penutupan rekening Rp15.000."
+            ]
+        },
+        {
+            "no": 2,
+            "namaProduk": "bjb Tandamata Berjangka",
+            "kategoriPerusahaan": "Produk Dana Pihak Ketiga (Tabungan)",
+            "listProduk": "Hadiah langsung dan asuransi.",
+            "jenisPembiayaan": "Tidak disebutkan",
+            "deskripsi": "Deskripsi untuk produk bjb Tandamata Berjangka.",
+            "plafon": "Tidak berlaku.",
+            "requirements": [
+                "Persyaratan akan ditentukan sesuai jenis produk."
+            ],
+            "benefits": [
+                "Hadiah langsung dan asuransi."
+            ],
+            "interestRate": "Sesuai ketentuan Bank BJB.",
+            "termsAndConditions": [
+                "Ketentuan berlaku sesuai kebijakan Bank BJB."
+            ]
+        },
+        {
+            "no": 5,
+            "namaProduk": "bjb Kredit Guna Bhakti (KGB)",
+            "kategoriPerusahaan": "Kredit Konsumer",
+            "listProduk": "Kredit multiguna untuk pegawai dengan gaji melalui bjb.",
+            "jenisPembiayaan": "Tidak disebutkan",
+            "deskripsi": "Deskripsi untuk produk bjb Kredit Guna Bhakti (KGB).",
+            "plafon": "Maksimal berdasarkan 90% dari gaji bersih.",
+            "requirements": [
+                "Persyaratan akan ditentukan sesuai jenis produk."
+            ],
+            "benefits": [
+                "Kredit multiguna untuk pegawai dengan gaji melalui bjb."
+            ],
+            "interestRate": "Sesuai ketentuan Bank BJB.",
+            "termsAndConditions": [
+                "Ketentuan berlaku sesuai kebijakan Bank BJB."
+            ]
+        },
+        {
+            "no": 6,
+            "namaProduk": "Kredit Program (KUR)",
+            "kategoriPerusahaan": "Kredit UMKM",
+            "listProduk": "Dukungan pemerintah dengan suku bunga rendah.",
+            "jenisPembiayaan": "Tidak disebutkan",
+            "deskripsi": "Deskripsi untuk produk Kredit Program (KUR).",
+            "plafon": "Sesuai peraturan pemerintah.",
+            "requirements": [
+                "Persyaratan akan ditentukan sesuai jenis produk."
+            ],
+            "benefits": [
+                "Dukungan pemerintah dengan suku bunga rendah."
+            ],
+            "interestRate": "Sesuai ketentuan Bank BJB.",
+            "termsAndConditions": [
+                "Usaha harus sesuai kriteria yang ditetapkan."
+            ]
+        },
+        {
+            "no": 7,
+            "namaProduk": "bjb KPR",
+            "kategoriPerusahaan": "Kredit Pemilikan Rumah (KPR)",
+            "listProduk": "Pembelian, renovasi, atau take-over properti.",
+            "jenisPembiayaan": "Tidak disebutkan",
+            "deskripsi": "Deskripsi untuk produk bjb KPR.",
+            "plafon": "Hingga Rp40 miliar (untuk pembelian properti).",
+            "requirements": [
+                "Persyaratan akan ditentukan sesuai jenis produk."
+            ],
+            "benefits": [
+                "Pembelian",
+                "renovasi",
+                "atau take-over properti."
+            ],
+            "interestRate": "Sesuai ketentuan Bank BJB.",
+            "termsAndConditions": [
+                "Ketentuan berlaku sesuai kebijakan Bank BJB."
+            ]
+        },
+        {
+            "no": 8,
+            "namaProduk": "bjb KPR Gaul",
+            "kategoriPerusahaan": "Kredit Pemilikan Rumah (KPR)",
+            "listProduk": "Khusus untuk milenial dengan pendapatan tetap.",
+            "jenisPembiayaan": "Tidak disebutkan",
+            "deskripsi": "Deskripsi untuk produk bjb KPR Gaul.",
+            "plafon": "Maksimal Rp1,5 miliar.",
+            "requirements": [
+                "Persyaratan akan ditentukan sesuai jenis produk."
+            ],
+            "benefits": [
+                "Khusus untuk milenial dengan pendapatan tetap."
+            ],
+            "interestRate": "Sesuai ketentuan Bank BJB.",
+            "termsAndConditions": [
+                "Ketentuan berlaku sesuai kebijakan Bank BJB."
+            ]
+        },
+        {
+            "no": 9,
+            "namaProduk": "bjb Kredit Purna Bhakti (KPPB)",
+            "kategoriPerusahaan": "Kredit Konsumer",
+            "listProduk": "Kredit untuk pegawai menjelang pensiun.",
+            "jenisPembiayaan": "Tidak disebutkan",
+            "deskripsi": "Deskripsi untuk produk bjb Kredit Purna Bhakti (KPPB).",
+            "plafon": "Berdasarkan kemampuan bayar.",
+            "requirements": [
+                "Persyaratan akan ditentukan sesuai jenis produk."
+            ],
+            "benefits": [
+                "Kredit untuk pegawai menjelang pensiun."
+            ],
+            "interestRate": "Sesuai ketentuan Bank BJB.",
+            "termsAndConditions": [
+                "Ketentuan berlaku sesuai kebijakan Bank BJB."
+            ]
+        }
+    ]
+}
