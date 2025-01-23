@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,10 +10,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap"
+      rel="stylesheet">
 </head>
-
 <body class="h-screen flex flex-col">
     @include('components.navbar')
     @include('components.sidebar')
@@ -23,7 +21,7 @@
         <!-- Panduan -->
         <div id="guide" class="mb-4">
             <div class="p-6 bg-white border border-gray-200 rounded-lg shadow text-center mb-[30px]">
-                <p>Hai!, Saya adalah AskBjb, aplikasi yang dibuat menggunakan Generative Artificial Intelligence
+                <p>Hai!, Saya adalah AskBjb, aplikasi yang dibuat menggunakan Generative Artificial Intelligence Index duakkkkk
                     <br>
                     (jenis kecerdasan buatan yang dirancang untuk menghasilkan konten, data, atau informasi baru).
                 </p>
@@ -59,21 +57,28 @@
 
         <!-- Input & File Upload -->
         <div class="mt-4 md:flex items-center space-x-2 mb-4 w-full">
-            <label for="file"
-                class="file-label rounded w-full sm:w-32 mb-2 sm:mb-0 h-full flex items-center justify-center bg-gray-200 cursor-pointer">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                    stroke="currentColor" class="clip-icon w-5 h-5 mr-1">
+            <label for="file" class="file-label rounded w-full sm:w-32 mb-2 sm:mb-0 h-full flex items-center justify-center bg-gray-200 cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                     fill="none" viewBox="0 0 24 24" stroke-width="2"
+                     stroke="currentColor" class="clip-icon w-5 h-5 mr-1">
                     <path stroke-linecap="round" stroke-linejoin="round"
-                        d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6A2.25 2.25 0 005.25 5.25v13.5A2.25 2.25 0 007.5 21h9a2.25 2.25 0 002.25-2.25V15" />
+                          d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6A2.25 2.25 0 005.25 5.25v13.5A2.25 2.25 0 007.5 21h9a2.25 2.25 0 002.25-2.25V15" />
                 </svg>
                 <input type="file" id="file" class="hidden" />
             </label>
             <div class="flex gap-2 w-full">
-                <input type="text" id="companyName" name="company_name"
+                <input
+                    type="text"
+                    id="companyName"
+                    name="company_name"
                     class="flex-grow p-4 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500"
-                    placeholder="Nama Perusahaan" />
-                <button type="submit" id="searchCompany"
-                    class="p-4 bg-blue-700 text-white font-medium rounded-lg hover:bg-blue-800 focus:ring-4 focus:ring-blue-300">
+                    placeholder="Nama Perusahaan"
+                />
+                <button
+                    type="submit"
+                    id="searchCompany"
+                    class="p-4 bg-blue-700 text-white font-medium rounded-lg hover:bg-blue-800 focus:ring-4 focus:ring-blue-300"
+                >
                     Kirim
                 </button>
             </div>
@@ -104,7 +109,6 @@
             const companyNameInput = document.getElementById('companyName');
             companyNameInput.value = "";
 
-            localStorage.setItem('companyName', companyName);
 
             if (guideElement) guideElement.style.display = 'none';
             if (chatBoxElement) chatBoxElement.style.height = 'calc(100vh - 200px)';
@@ -127,9 +131,7 @@
 
             try {
                 const response = await axios.post('/profile-company', formData, {
-                    headers: {
-                        'Content-Type': 'multipart/form-data'
-                    },
+                    headers: { 'Content-Type': 'multipart/form-data' },
                 });
 
                 removeLoadingIndicator(loadingId);
@@ -150,28 +152,11 @@
         function addMessageToChat(role, content) {
             const chatBox = document.getElementById('chatBox');
             const messageElement = document.createElement('div');
-            messageElement.className = `chat-bubble flex items-start space-x-4 mb-4 ${role === 'user' ? 'user' : 'assistant'}`;
-
-            // Jika role adalah assistant, tambahkan avatar di luar kotak
-            if (role === 'assistant') {
-                messageElement.innerHTML = `
-                    <div class="flex-shrink-0">
-                        <img class="w-10 h-10 rounded-full" src={{ asset('images/ask-icon.png') }} alt="Assistant Avatar">
-                    </div>
-                    <div class="bg-gray-100 p-3 rounded-lg">
-                        <div class="chat-meta text-sm font-semibold text-gray-600 mb-1">Asisten</div>
-                        <div class="chat-content text-gray-800">${content.replace(/\n/g, '<br>')}</div>
-                    </div>
-                `;
-                } else {
-                    // Untuk user, hanya tampilkan konten tanpa avatar
-                    messageElement.innerHTML = `
-                        <div>
-                            <div class="chat-meta text-sm font-semibold text-gray-600">Anda</div>
-                            <div class="chat-content text-gray-800">${content.replace(/\n/g, '<br>')}</div>
-                        </div>
-                    `;
-                }
+            messageElement.className = `chat-bubble ${role === 'user' ? 'user' : 'assistant'}`;
+            messageElement.innerHTML = `
+                <div class="chat-meta">${role === 'user' ? 'Anda' : 'Asisten'}</div>
+                <div class="chat-content">${content.replace(/\n/g, '<br>')}</div>
+            `;
 
             // Tambahkan elemen ke chatbox
             chatBox.appendChild(messageElement);
@@ -213,8 +198,7 @@
                 html += '<h3 class="mt-4 font-semibold">Karyawan Terkait</h3><ul class="list-disc list-inside">';
                 data.featured_employees.forEach(emp => {
                     if (emp.url) {
-                        html +=
-                            `<li><a href="${emp.url}" target="_blank" class="text-blue-500 underline">${emp.url}</a></li>`;
+                        html += `<li><a href="${emp.url}" target="_blank" class="text-blue-500 underline">${emp.url}</a></li>`;
                     }
                 });
                 html += '</ul>';
@@ -223,8 +207,7 @@
                 html += '<h3 class="mt-4 font-semibold">Perusahaan Serupa</h3><ul class="list-disc list-inside">';
                 data.similar_companies.forEach(comp => {
                     if (comp.url) {
-                        html +=
-                            `<li><a href="${comp.url}" target="_blank" class="text-blue-500 underline">${comp.url}</a></li>`;
+                        html += `<li><a href="${comp.url}" target="_blank" class="text-blue-500 underline">${comp.url}</a></li>`;
                     }
                 });
                 html += '</ul>';
@@ -233,5 +216,4 @@
         }
     </script>
 </body>
-
 </html>

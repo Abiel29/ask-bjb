@@ -14,7 +14,6 @@ body{
     border-radius: 10px;
     word-wrap: break-word;
 }
-
 .chat-bubble.user {
     background-color: #007bff;
     color: white;
@@ -41,4 +40,9 @@ body{
 .chat-content {
     font-size: 14px;
     text-align: left; /* Rata kiri untuk isi chat */
+}
+.chat-bubble img {
+    width: 40px; /* Ukuran avatar */
+    height: 40px;
+    border-radius: 50%;
 }

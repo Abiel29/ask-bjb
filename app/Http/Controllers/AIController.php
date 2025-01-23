@@ -68,7 +68,7 @@ class AIController extends Controller
             $benefits = implode("\n    - ", json_decode($product->benefits, true));
             $requirements = implode("\n    - ", json_decode($product->requirements, true));
             $terms = implode("\n    - ", json_decode($product->terms_and_conditions, true));
-        
+
             return "- Nama Produk: {$product->nama_produk}
             Deskripsi: {$product->deskripsi}
             Plafon: {$product->plafon}
@@ -80,11 +80,11 @@ class AIController extends Controller
             Terms & Conditions:
             - {$terms}";
         })->implode("\n\n");
-        
+
 
         // 4. Siapkan prompt untuk OpenAI
         $prompt = "
-        Mohon buat profil perusahaan yang lengkap untuk: {$company->name} 
+        Mohon buat profil perusahaan yang lengkap untuk: {$company->name}
         berdasarkan struktur berikut:
 
         **Profil Perusahaan**

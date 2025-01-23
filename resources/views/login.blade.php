@@ -11,7 +11,7 @@
     <div class="flex items-center justify-center min-h-screen bg-gray-100">
         <div class="w-full max-w-sm p-6 bg-white rounded-lg shadow-lg">
             <div class="flex items-center justify-center mb-6">
-                <img src="{{ asset('images/image 6.png') }}" class="h-12 me-1" alt="" />
+                <img src="{{ asset('images/icon ask bjb.png') }}" class="h-12 me-1" alt="" />
             </div>
             <form action="{{ route('login') }}" method="POST">
                 @csrf

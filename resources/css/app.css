@@ -83,7 +83,6 @@ body {
 
 .chat-bubble {
     display: flex;
-    flex-direction: column;
     border-radius: 12px;
     padding: 10px 15px;
     margin-bottom: 10px;
