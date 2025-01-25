@@ -95,6 +95,30 @@
             newChat.style.display = '';
         })
 
+        function setItemWithExpiry(key, value, expiryInSeconds) {
+            const now = new Date().getTime();
+            const item = {
+                value: value,
+                expires: now + expiryInSeconds * 1000, // Konversi ke milidetik
+            };
+            localStorage.setItem(key, JSON.stringify(item));
+        }
+
+        // Fungsi untuk mengambil data yang belum kedaluwarsa
+        function getItemWithExpiry(key) {
+            const itemStr = localStorage.getItem(key);
+            if (!itemStr) return null;
+
+            const item = JSON.parse(itemStr);
+            const now = new Date().getTime();
+
+            if (now > item.expires) {
+                localStorage.removeItem(key); // Hapus jika sudah expired
+                return null;
+            }
+            return item.value;
+        }
+
         document.getElementById('searchCompany').addEventListener('click', async () => {
             const guideElement = document.getElementById('guide');
             const chatBoxElement = document.getElementById('chatBox');
@@ -102,9 +126,18 @@
             const fileInput = document.getElementById('file');
             const errorContainer = document.getElementById('errorContainer');
             const companyNameInput = document.getElementById('companyName');
-            companyNameInput.value = "";
+            const companyNameDisplay = document.getElementById(
+                'companyNameDisplay');
 
-            localStorage.setItem('companyName', companyName);
+            if (companyNameInput) {
+                const companyName = companyNameInput.value;
+                setItemWithExpiry('companyName', companyName, 1800);
+                if (companyNameDisplay) {
+                    companyNameDisplay.innerText = companyName;
+                }
+
+                companyNameInput.value = "";
+            }
 
             if (guideElement) guideElement.style.display = 'none';
             if (chatBoxElement) chatBoxElement.style.height = 'calc(100vh - 200px)';
@@ -150,7 +183,8 @@
         function addMessageToChat(role, content) {
             const chatBox = document.getElementById('chatBox');
             const messageElement = document.createElement('div');
-            messageElement.className = `chat-bubble flex items-start space-x-4 mb-4 ${role === 'user' ? 'user' : 'assistant'}`;
+            messageElement.className =
+                `chat-bubble flex items-start space-x-4 mb-4 ${role === 'user' ? 'user' : 'assistant'}`;
 
             // Jika role adalah assistant, tambahkan avatar di luar kotak
             if (role === 'assistant') {
@@ -163,15 +197,15 @@
                         <div class="chat-content text-gray-800">${content.replace(/\n/g, '<br>')}</div>
                     </div>
                 `;
-                } else {
-                    // Untuk user, hanya tampilkan konten tanpa avatar
-                    messageElement.innerHTML = `
+            } else {
+                // Untuk user, hanya tampilkan konten tanpa avatar
+                messageElement.innerHTML = `
                         <div>
                             <div class="chat-meta text-sm font-semibold text-gray-600">Anda</div>
                             <div class="chat-content text-gray-800">${content.replace(/\n/g, '<br>')}</div>
                         </div>
                     `;
-                }
+            }
 
             // Tambahkan elemen ke chatbox
             chatBox.appendChild(messageElement);
@@ -179,6 +213,13 @@
             // Scroll otomatis ke bagian bawah
             chatBox.scrollTop = chatBox.scrollHeight;
         }
+
+        document.addEventListener("DOMContentLoaded", function() {
+            const storedCompanyName = getItemWithExpiry('companyName') || 'New Chat';
+            document.getElementById('companyNameDisplay').innerText = storedCompanyName;
+            // const storedCompanyName1 = getItemWithExpiry('companyName1') || 'New Chat';
+            document.getElementById('companyNameDisplay1').innerText = 'New Chat';
+        });
 
 
         function addLoadingIndicator() {
