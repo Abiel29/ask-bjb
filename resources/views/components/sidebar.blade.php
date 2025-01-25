@@ -27,9 +27,9 @@
                     <span class="ms-3 " id="companyNameDisplay"></span>
                 </a>
             </li>
-            <li id="new-chats" style="{{ Request::is('ask-bjb-2') ? '' : 'display:none' }}">
+            <li id="new-chats" style="{{ Request::is('ask-bjb-2') ? '' : 'display:none' }}" class="flex items-center justify-between p-2 text-gray-900 rounded-lg hover:bg-blue-400 dark:hover:bg-gray-700 group hover:text-white">
                 <a href="{{ route('ask-bjb-2') }}"
-                    class="{{ Request::is('ask-bjb-2') ? 'active' : '' }} flex items-center justify-between p-2 text-gray-900 rounded-lg dark:text-white hover:bg-blue-400 dark:hover:bg-gray-700 group hover:text-white">
+                    class="{{ Request::is('ask-bjb-2') ? 'active' : '' }} flex items-center justify-between  dark:text-white hover:text-white w-full">
                     <div class="flex items-center">
                         <svg class="{{ Request::is('ask-bjb-2') ? 'active' : '' }} w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-white dark:group-hover:text-white"
                             aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
@@ -40,9 +40,16 @@
                         </svg>
                         <span class="ms-3" id="companyNameDisplay1"></span>
                     </div>
-                    <button id="remove-chat">
-                        <img src={{ asset('images/x.png') }} alt="Italian Trulli" class="h-4 w-4 hover:">
-                    </button>
+                </a>
+                <a href="/ask-bjb"
+                    class="ms-auto -mx-1.5 -my-1.5 inline-flex justify-center items-center w-6 h-6 text-blue-900 rounded-lg focus:ring-2 focus:ring-blue-400 p-1 hover:bg-blue-200 dark:bg-blue-900 dark:text-blue-400 dark:hover:bg-blue-800"
+                    aria-label="Close">
+                    <span class="sr-only">Close</span>
+                    <svg class="w-2.5 h-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 14 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
+                    </svg>
                 </a>
             </li>
         </ul>

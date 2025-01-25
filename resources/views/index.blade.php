@@ -272,6 +272,10 @@
             }
             return html;
         }
+
+        document.getElementById('remove-chat').addEventListener('click', function() {
+            console.log('ashadad')
+        });
     </script>
 </body>
 
