@@ -254,6 +254,10 @@
             }
             return html;
         }
+
+        document.getElementById('remove-chat').addEventListener('click', function() {
+            window.location.href = "{{ route('ask-bjb') }}";
+        });
     </script>
 </body>
 
