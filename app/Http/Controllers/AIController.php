@@ -18,6 +18,8 @@ class AIController extends Controller
 
         $companyName = $request->company_name;
 
+        session(['companyName' => $request->company_name]);
+
         // 2. Cari perusahaan di database
         $company = DB::table('companies')
             ->where('name', 'LIKE', '%' . $companyName . '%')
