@@ -23,53 +23,52 @@
         <!-- Panduan -->
         <div id="guide" class="mb-4">
             <div class="p-6 bg-white border border-gray-200 rounded-lg shadow text-center mb-[30px]">
-                <p>Hai!, Saya adalah AskBjb, aplikasi yang dibuat menggunakan Generative Artificial Intelligence Index
-                    duakkkkk
+                <p>Hai!, Saya adalah Askbjb Chat Coorporate Profiling
                     <br>
-                    (jenis kecerdasan buatan yang dirancang untuk menghasilkan konten, data, atau informasi baru).
+                    Saya dirancang untuk menghasilkan profiling dari suatu perusahaan yang anda inginkan.
                 </p>
             </div>
             <div class="grid md:grid-cols-2 gap-[12px] mb-4">
                 <div class="p-6 bg-white border border-gray-200 rounded-lg shadow">
-                    <p class="text-center font-semibold">Bantuan Pertanyaan yang Baik</p>
+                    <p class="text-center font-semibold">Profiling Dilakukan Berdasarkan</p>
                     <ol class="ps-5 mt-2 space-y-1 list-decimal list-inside">
-                        <li>Bagaimana cara untuk membuat rekening tandamata berjangka?</li>
-                        <li>Apa resiko jika keluar dari pekerjaan?</li>
-                        <li>Berapa banyak produk tabungan yang dimiliki bank bjb?</li>
-                        <li>Bagaimana caranya mengajukan cuti?</li>
-                        <li>Apakah perusahaan PT. Terus Maju telah memiliki kerja sama atau menjadi nasabah bank
-                            bjb?</li>
+                        <li>Data yang tersebar di internet</li>
+                        <li>Data produk bank bjb</li>
+                        <li>Data yang diupload oleh user</li>
                     </ol>
                 </div>
                 <div class="p-6 bg-white border border-gray-200 rounded-lg shadow text-center">
-                    <p class="text-center font-semibold">Pertanyaan yang Kurang Tepat</p>
+                    <p class="text-center font-semibold">Perlu untuk diperhatikan</p>
                     <ol class="text-left ps-5 mt-2 space-y-1 list-decimal list-inside">
-                        <li>Bagaimana cara untuk membuat rekening tandamata?</li>
-                        <li>Libur hari apa?</li>
-                        <li>Berapa gaji saya?</li>
-                        <li>Saya mau cuti?</li>
-                        <li>Saya sakit?</li>
+                        <li>Hanya masukkan nama perusahaan saja pada kolom chat. Tidak perlu menambahkan hal lainnya</li>
                     </ol>
                 </div>
             </div>
         </div>
 
         <!-- Chatbox -->
-        <div id="chatBox" class="flex-grow p-4 rounded overflow-y-auto bg-gray-100">
+        <div id="chatBox" class="flex-grow p-4 rounded overflow-y-auto">
         </div>
-
+        <!-- File Status -->
+        <div id="file-status" class="text-xs text-gray-700 mt-1 truncate hidden">
+                    <span id="file-name" class="font-medium"></span>
+                    <span id="file-size" class="ml-1"></span>
+        </div>
         <!-- Input & File Upload -->
-        <div class="mt-4 md:flex items-center space-x-2 mb-4 w-full">
-            <label for="file"
-                class="file-label rounded w-full sm:w-32 mb-2 sm:mb-0 h-full flex items-center justify-center bg-gray-200 cursor-pointer">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                    stroke="currentColor" class="clip-icon w-5 h-5 mr-1">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                        d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6A2.25 2.25 0 005.25 5.25v13.5A2.25 2.25 0 007.5 21h9a2.25 2.25 0 002.25-2.25V15" />
-                </svg>
-                <input type="file" id="file" class="hidden" />
-            </label>
+        <div class="mt-4 flex items-center space-x-2 mb-4 w-full">
+            
+            <!-- Company Input Section -->
             <div class="flex gap-2 w-full">
+                <label for="file"
+                    class="max-md:w-fit file-label rounded w-full sm:w-32 sm:mb-0 flex items-center justify-center bg-gray-200 cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                        stroke="currentColor" class="clip-icon w-5 h-5 mr-1">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6A2.25 2.25 0 005.25 5.25v13.5A2.25 2.25 0 007.5 21h9a2.25 2.25 0 002.25-2.25V15" />
+                    </svg>
+                    <span id="file-label-text" class="text-sm max-md:hidden">Pilih File</span>
+                    <input type="file" id="file" class="hidden" accept=".pdf,.doc,.docx,.txt" />
+                </label>
                 <input type="text" id="companyName" name="company_name"
                     class="flex-grow p-4 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500"
                     placeholder="Nama Perusahaan" />
@@ -79,7 +78,6 @@
                 </button>
             </div>
         </div>
-
         <div id="errorContainer" class="text-red-500 mt-2"></div>
     </div>
 
@@ -87,6 +85,14 @@
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
     <script>
+        // File Upload Handler
+        const fileInput = document.getElementById('file');
+        const fileName = document.getElementById('file-name');
+        const fileSize = document.getElementById('file-size');
+        const fileStatus = document.getElementById('file-status');
+        const fileLabelText = document.getElementById('file-label-text');
+
+
         document.getElementById('add-chat').addEventListener('click', async () => {
             const addChat = document.getElementById('add-chat');
             const nowChat = document.getElementById('chats');
@@ -120,26 +126,71 @@
             return item.value;
         }
 
+        fileInput.addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            const errorContainer = document.getElementById('errorContainer');
+            
+            if (file) {
+                // Validasi File
+                const allowedTypes = [
+                    'application/pdf',
+                    'text/plain',
+                    'application/msword',
+                    'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
+                ];
+                
+                // Validasi Type File
+                if (!allowedTypes.includes(file.type)) {
+                    errorContainer.textContent = 'Format file tidak didukung (PDF, DOC/DOCX, TXT)';
+                    resetFileInput();
+                    return;
+                }
+                
+                // Validasi Ukuran File
+                if (file.size > 5 * 1024 * 1024) {
+                    errorContainer.textContent = 'Ukuran file maksimal 5MB';
+                    resetFileInput();
+                    return;
+                }
+                
+                // Update UI
+                fileLabelText.textContent = 'Ganti File';
+                fileStatus.classList.remove('hidden');
+                fileName.textContent = file.name;
+                fileSize.textContent = `(${(file.size / 1024 / 1024).toFixed(1)}MB)`;
+                errorContainer.textContent = '';
+            }
+        });
+
+        // Fungsi Reset File
+        function resetFileInput() {
+            fileInput.value = '';
+            fileLabelText.textContent = 'Pilih File';
+            fileStatus.classList.add('hidden');
+            fileName.textContent = '';
+            fileSize.textContent = '';
+        }
+
         document.getElementById('searchCompany').addEventListener('click', async () => {
             const guideElement = document.getElementById('guide');
             const chatBoxElement = document.getElementById('chatBox');
             const companyName = document.getElementById('companyName').value;
-            const fileInput = document.getElementById('file');
+            const file = fileInput.files[0];
             const errorContainer = document.getElementById('errorContainer');
             const companyNameInput = document.getElementById('companyName');
-            const companyNameDisplay1 = document.getElementById(
-                'companyNameDisplay1'); // Pastikan ada elemen ini di HTML
+            const companyNameDisplay = document.getElementById(
+                'companyNameDisplay');
 
             if (companyNameInput) {
-                const companyName1 = companyNameInput.value;
-                setItemWithExpiry('companyName1', companyName1, 1800);
-                if (companyNameDisplay1) {
-                    companyNameDisplay1.innerText = companyName1;
+                const companyName = companyNameInput.value;
+                setItemWithExpiry('companyName', companyName, 1800);
+                if (companyNameDisplay) {
+                    companyNameDisplay.innerText = companyName;
                 }
 
                 companyNameInput.value = "";
             }
-
+        
             if (guideElement) guideElement.style.display = 'none';
             if (chatBoxElement) chatBoxElement.style.height = 'calc(100vh - 200px)';
 
@@ -149,15 +200,11 @@
             } else {
                 errorContainer.textContent = "";
             }
-
-            addMessageToChat('user', `Perusahaan: ${companyName}`);
             const loadingId = addLoadingIndicator();
 
             const formData = new FormData();
             formData.append('company_name', companyName);
-            if (fileInput.files[0]) {
-                formData.append('file', fileInput.files[0]);
-            }
+            if (file) formData.append('file', file);
 
             try {
                 const response = await axios.post('/profile-company', formData, {
@@ -166,11 +213,17 @@
                     },
                 });
 
+                // Reset Input
+                document.getElementById('companyName').value = '';
+                resetFileInput();
+
+
                 removeLoadingIndicator(loadingId);
 
                 if (response.data.profile) {
                     const profileHTML = renderProfile(response.data);
                     addMessageToChat('assistant', profileHTML);
+                    addDownloadButton(companyName);
                 } else {
                     addMessageToChat('assistant', response.data.error || 'Profil tidak tersedia.');
                 }
@@ -184,11 +237,29 @@
         function addMessageToChat(role, content) {
             const chatBox = document.getElementById('chatBox');
             const messageElement = document.createElement('div');
-            messageElement.className = `chat-bubble ${role === 'user' ? 'user' : 'assistant'}`;
-            messageElement.innerHTML = `
-                <div class="chat-meta">${role === 'user' ? 'Anda' : 'Asisten'}</div>
-                <div class="chat-content">${content.replace(/\n/g, '<br>')}</div>
-            `;
+            messageElement.className =
+                `chat-bubble flex items-start space-x-4 mb-4 ${role === 'user' ? 'user' : 'assistant'}`;
+
+            // Jika role adalah assistant, tambahkan avatar di luar kotak
+            if (role === 'assistant') {
+                messageElement.innerHTML = `
+                    <div class="flex-shrink-0">
+                        <img class="w-10 h-10 rounded-full" src={{ asset('images/ask-icon.png') }} alt="Assistant Avatar">
+                    </div>
+                    <div class="bg-gray-100 p-3 rounded-lg">
+                        <div class="chat-meta text-sm font-semibold text-gray-600 mb-1">Asisten</div>
+                        <div class="chat-content text-gray-800">${content.replace(/\n/g, '<br>')}</div>
+                    </div>
+                `;
+            } else {
+                // Untuk user, hanya tampilkan konten tanpa avatar
+                messageElement.innerHTML = `
+                        <div>
+                            <div class="chat-meta text-sm font-semibold text-gray-600">Anda</div>
+                            <div class="chat-content text-gray-800">${content.replace(/\n/g, '<br>')}</div>
+                        </div>
+                    `;
+            }
 
             // Tambahkan elemen ke chatbox
             chatBox.appendChild(messageElement);
@@ -200,9 +271,10 @@
         document.addEventListener("DOMContentLoaded", function() {
             const storedCompanyName = getItemWithExpiry('companyName') || 'New Chat';
             document.getElementById('companyNameDisplay').innerText = storedCompanyName;
-            const storedCompanyName1 = getItemWithExpiry('companyName1') || 'New Chat';
-            document.getElementById('companyNameDisplay1').innerText = storedCompanyName1;
+            // const storedCompanyName1 = getItemWithExpiry('companyName1') || 'New Chat';
+            document.getElementById('companyNameDisplay1').innerText = 'New Chat';
         });
+
 
         function addLoadingIndicator() {
             const chatBox = document.getElementById('chatBox');
@@ -255,8 +327,17 @@
             return html;
         }
 
+        function addDownloadButton(companyName) {
+            const chatBox = document.getElementById('chatBox');
+            const downloadBtn = document.createElement('a');
+            downloadBtn.href = `/export-company-pdf?company_name=${encodeURIComponent(companyName)}`;
+            downloadBtn.className = 'bg-green-500 text-white px-4 py-2 rounded-lg mt-4 inline-block hover:bg-green-600';
+            downloadBtn.textContent = 'Download PDF';
+            downloadBtn.target = '_blank';
+            chatBox.appendChild(downloadBtn);
+        }
         document.getElementById('remove-chat').addEventListener('click', function() {
-            window.location.href = "{{ route('ask-bjb') }}";
+            console.log('ashadad')
         });
     </script>
 </body>

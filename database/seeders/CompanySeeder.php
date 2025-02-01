@@ -12,7 +12,7 @@ class CompanySeeder extends Seeder
      */
     public function run()
     {
-        $jsonPath = database_path('cleaned_company_data_fixed.json');
+        $jsonPath = database_path('cleaned_company_data_urls.json');
         
         if (!file_exists($jsonPath)) {
             throw new \Exception("File JSON tidak ditemukan di {$jsonPath}");
@@ -28,7 +28,7 @@ class CompanySeeder extends Seeder
         foreach ($companies as $data) {
             Company::create([
                 'name' => $data['name'] ?? null,
-                'description' => $data['description'] ?? null,
+                'description' => $data['description'] ?? 'Unknown',
                 'industry' => $data['industry'] ?? 'Unknown',
                 'visi' => $data['visi'] ?? null,
                 'misi' => $data['misi'] ?? null,

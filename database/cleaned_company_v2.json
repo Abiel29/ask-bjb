@@ -1,0 +1,960 @@
+[
+    {
+        "name": "PT. Mayora Indah Tbk",
+        "description": "MAYORA Group has proven itself as a manufacturer of quality products that gain some recognition and awards such as “Top 100 Exporter Companies in Indonesia” from SWA magazine, “Top Five Best Managed Companies in Indonesia” conducted by Asia Money, “Top 100 public listed companies” in 2009 and 2010 as the first position in sector of Food and Beverages conducted by Investor Magazine Indonesia, as well as “Best Manufacturer of Halal Products” in 2004 by Majelis Ulama Indonesia",
+        "industry": "Food and Beverage Services",
+        "visi": null,
+        "misi": null,
+        "company_featured_employees_collection": [
+            {
+                "id": 1843895,
+                "company_id": 1286342,
+                "url": "https://www.linkedin.com/in/yulie-lim-b24910",
+                "created": "2019-10-16 15:56:43",
+                "last_updated": "2021-06-27 03:50:45",
+                "deleted": 1
+            },
+            {
+                "id": 1843896,
+                "company_id": 1286342,
+                "url": "https://www.linkedin.com/in/charles-messah-6a21203",
+                "created": "2019-10-16 15:56:43",
+                "last_updated": "2020-02-04 09:22:50",
+                "deleted": 1
+            },
+            {
+                "id": 1843897,
+                "company_id": 1286342,
+                "url": "https://www.linkedin.com/in/neeraj-joshi-8501335",
+                "created": "2019-10-16 15:56:43",
+                "last_updated": "2021-06-27 03:50:45",
+                "deleted": 1
+            },
+            {
+                "id": 1843899,
+                "company_id": 1286342,
+                "url": "https://www.linkedin.com/in/suwanto-kristoforus-1766375",
+                "created": "2019-10-16 15:56:43",
+                "last_updated": "2021-06-27 03:50:45",
+                "deleted": 1
+            },
+            {
+                "id": 35486205,
+                "company_id": 1286342,
+                "url": "https://www.linkedin.com/in/dina-andriana-0a99a28",
+                "created": "2020-02-04 09:22:50",
+                "last_updated": "2021-02-18 21:07:59",
+                "deleted": 1
+            },
+            {
+                "id": 60871813,
+                "company_id": 1286342,
+                "url": "https://www.linkedin.com/in/sherman-liberato-6356384",
+                "created": "2021-02-18 21:07:59",
+                "last_updated": "2021-06-27 03:50:45",
+                "deleted": 1
+            },
+            {
+                "id": 67664530,
+                "company_id": 1286342,
+                "url": "https://www.linkedin.com/in/yulie-lim-b24910",
+                "created": "2021-06-28 12:58:59",
+                "last_updated": "2022-07-26 09:08:42",
+                "deleted": 1
+            },
+            {
+                "id": 67664531,
+                "company_id": 1286342,
+                "url": "https://www.linkedin.com/in/sherman-liberato-6356384",
+                "created": "2021-06-28 12:58:59",
+                "last_updated": "2022-07-26 09:08:42",
+                "deleted": 1
+            },
+            {
+                "id": 67664532,
+                "company_id": 1286342,
+                "url": "https://www.linkedin.com/in/neeraj-joshi-8501335",
+                "created": "2021-06-28 12:58:59",
+                "last_updated": "2022-07-26 09:08:42",
+                "deleted": 1
+            },
+            {
+                "id": 67664533,
+                "company_id": 1286342,
+                "url": "https://www.linkedin.com/in/suwanto-kristoforus-1766375",
+                "created": "2021-06-28 12:58:59",
+                "last_updated": "2022-07-26 09:08:42",
+                "deleted": 1
+            },
+            {
+                "id": 120000415,
+                "company_id": 1286342,
+                "url": "https://id.linkedin.com/in/yulie-lim-b24910",
+                "created": "2022-07-26 09:08:42",
+                "last_updated": "2022-09-02 06:15:51",
+                "deleted": 1
+            },
+            {
+                "id": 120000416,
+                "company_id": 1286342,
+                "url": "https://ph.linkedin.com/in/sherman-liberato-6356384",
+                "created": "2022-07-26 09:08:42",
+                "last_updated": "2022-09-02 06:15:51",
+                "deleted": 1
+            },
+            {
+                "id": 120000418,
+                "company_id": 1286342,
+                "url": "https://sg.linkedin.com/in/neeraj-joshi-8501335",
+                "created": "2022-07-26 09:08:42",
+                "last_updated": "2022-09-02 06:15:51",
+                "deleted": 1
+            },
+            {
+                "id": 120000420,
+                "company_id": 1286342,
+                "url": "https://id.linkedin.com/in/suwanto-kristoforus-1766375",
+                "created": "2022-07-26 09:08:42",
+                "last_updated": "2022-09-02 06:15:51",
+                "deleted": 1
+            },
+            {
+                "id": 124800669,
+                "company_id": 1286342,
+                "url": "https://www.linkedin.com/in/yulie-lim-b24910",
+                "created": "2022-09-02 06:15:51",
+                "last_updated": "2022-09-15 09:55:08",
+                "deleted": 1
+            },
+            {
+                "id": 124800670,
+                "company_id": 1286342,
+                "url": "https://www.linkedin.com/in/sherman-liberato-6356384",
+                "created": "2022-09-02 06:15:51",
+                "last_updated": "2022-09-15 09:55:08",
+                "deleted": 1
+            },
+            {
+                "id": 124800671,
+                "company_id": 1286342,
+                "url": "https://www.linkedin.com/in/neeraj-joshi-8501335",
+                "created": "2022-09-02 06:15:51",
+                "last_updated": "2022-09-15 09:55:08",
+                "deleted": 1
+            },
+            {
+                "id": 124800672,
+                "company_id": 1286342,
+                "url": "https://www.linkedin.com/in/suwanto-kristoforus-1766375",
+                "created": "2022-09-02 06:15:51",
+                "last_updated": "2022-09-15 09:55:08",
+                "deleted": 1
+            },
+            {
+                "id": 131766383,
+                "company_id": 1286342,
+                "url": "https://id.linkedin.com/in/yulie-lim-b24910",
+                "created": "2022-09-15 09:55:08",
+                "last_updated": "2025-01-10 06:39:41",
+                "deleted": 0
+            },
+            {
+                "id": 131766384,
+                "company_id": 1286342,
+                "url": "https://ph.linkedin.com/in/sherman-liberato-6356384",
+                "created": "2022-09-15 09:55:08",
+                "last_updated": "2022-11-15 20:28:22",
+                "deleted": 1
+            },
+            {
+                "id": 131766385,
+                "company_id": 1286342,
+                "url": "https://sg.linkedin.com/in/neeraj-joshi-8501335",
+                "created": "2022-09-15 09:55:08",
+                "last_updated": "2025-01-10 06:39:41",
+                "deleted": 0
+            },
+            {
+                "id": 131766386,
+                "company_id": 1286342,
+                "url": "https://id.linkedin.com/in/suwanto-kristoforus-1766375",
+                "created": "2022-09-15 09:55:08",
+                "last_updated": "2025-01-10 06:39:41",
+                "deleted": 0
+            },
+            {
+                "id": 153741348,
+                "company_id": 1286342,
+                "url": "https://id.linkedin.com/in/dina-andriana-0a99a28",
+                "created": "2022-11-15 20:28:22",
+                "last_updated": "2025-01-10 06:39:41",
+                "deleted": 0
+            }
+        ],
+        "company_similar_collection": [
+            {
+                "id": 2462266,
+                "company_id": 1286342,
+                "url": "https://www.linkedin.com/company/pt-indofood-sukses-makmur-tbk",
+                "created": "2019-10-16 15:56:43",
+                "last_updated": "2020-11-21 01:31:36",
+                "deleted": 1
+            },
+            {
+                "id": 2462268,
+                "company_id": 1286342,
+                "url": "https://www.linkedin.com/company/pt-ultra-prima-abadi",
+                "created": "2019-10-16 15:56:43",
+                "last_updated": "2020-11-21 01:31:36",
+                "deleted": 1
+            },
+            {
+                "id": 2462270,
+                "company_id": 1286342,
+                "url": "https://www.linkedin.com/company/pt-nutrifood-indonesia",
+                "created": "2019-10-16 15:56:43",
+                "last_updated": "2020-08-26 12:31:57",
+                "deleted": 1
+            },
+            {
+                "id": 2462272,
+                "company_id": 1286342,
+                "url": "https://www.linkedin.com/company/pt-frisian-flag-indonesia",
+                "created": "2019-10-16 15:56:43",
+                "last_updated": "2020-11-21 01:31:36",
+                "deleted": 1
+            },
+            {
+                "id": 2462275,
+                "company_id": 1286342,
+                "url": "https://www.linkedin.com/company/pt-sayap-mas-utama",
+                "created": "2019-10-16 15:56:43",
+                "last_updated": "2020-11-21 01:31:36",
+                "deleted": 1
+            },
+            {
+                "id": 2462277,
+                "company_id": 1286342,
+                "url": "https://www.linkedin.com/company/pt-hm-sampoerna-tbk",
+                "created": "2019-10-16 15:56:43",
+                "last_updated": "2020-11-21 01:31:36",
+                "deleted": 1
+            },
+            {
+                "id": 83740406,
+                "company_id": 1286342,
+                "url": "https://www.linkedin.com/company/pt-kalbe-farma",
+                "created": "2020-02-04 09:22:50",
+                "last_updated": "2020-11-21 01:31:36",
+                "deleted": 1
+            },
+            {
+                "id": 83740407,
+                "company_id": 1286342,
+                "url": "https://www.linkedin.com/company/pt-djarum",
+                "created": "2020-02-04 09:22:50",
+                "last_updated": "2020-11-21 01:31:36",
+                "deleted": 1
+            },
+            {
+                "id": 83740408,
+                "company_id": 1286342,
+                "url": "https://www.linkedin.com/company/unilever",
+                "created": "2020-02-04 09:22:50",
+                "last_updated": "2021-06-27 03:50:45",
+                "deleted": 1
+            },
+            {
+                "id": 83740410,
+                "company_id": 1286342,
+                "url": "https://www.linkedin.com/company/pertamina",
+                "created": "2020-02-04 09:22:50",
+                "last_updated": "2020-11-21 01:31:36",
+                "deleted": 1
+            },
+            {
+                "id": 219545666,
+                "company_id": 1286342,
+                "url": "https://www.linkedin.com/company/pt-nippon-indosari-corpindo-tbk",
+                "created": "2020-08-26 12:31:57",
+                "last_updated": "2020-11-21 01:31:36",
+                "deleted": 1
+            },
+            {
+                "id": 287838917,
+                "company_id": 1286342,
+                "url": "https://id.linkedin.com/company/pt-indofood-sukses-makmur-tbk",
+                "created": "2020-11-21 01:31:36",
+                "last_updated": "2021-06-27 03:50:45",
+                "deleted": 1
+            },
+            {
+                "id": 287838918,
+                "company_id": 1286342,
+                "url": "https://id.linkedin.com/company/pt-frisian-flag-indonesia",
+                "created": "2020-11-21 01:31:36",
+                "last_updated": "2021-06-27 03:50:45",
+                "deleted": 1
+            },
+            {
+                "id": 287838919,
+                "company_id": 1286342,
+                "url": "https://id.linkedin.com/company/pt-sayap-mas-utama",
+                "created": "2020-11-21 01:31:36",
+                "last_updated": "2021-06-27 03:50:45",
+                "deleted": 1
+            },
+            {
+                "id": 287838920,
+                "company_id": 1286342,
+                "url": "https://id.linkedin.com/company/pt-nippon-indosari-corpindo-tbk",
+                "created": "2020-11-21 01:31:36",
+                "last_updated": "2021-06-27 03:50:45",
+                "deleted": 1
+            },
+            {
+                "id": 287838921,
+                "company_id": 1286342,
+                "url": "https://id.linkedin.com/company/pt-djarum",
+                "created": "2020-11-21 01:31:36",
+                "last_updated": "2021-06-27 03:50:45",
+                "deleted": 1
+            },
+            {
+                "id": 287838922,
+                "company_id": 1286342,
+                "url": "https://id.linkedin.com/company/pt-kalbe-farma",
+                "created": "2020-11-21 01:31:36",
+                "last_updated": "2021-06-27 03:50:45",
+                "deleted": 1
+            },
+            {
+                "id": 287838923,
+                "company_id": 1286342,
+                "url": "https://id.linkedin.com/company/pertamina",
+                "created": "2020-11-21 01:31:36",
+                "last_updated": "2021-06-27 03:50:45",
+                "deleted": 1
+            },
+            {
+                "id": 287838924,
+                "company_id": 1286342,
+                "url": "https://id.linkedin.com/company/pt-ultra-prima-abadi",
+                "created": "2020-11-21 01:31:36",
+                "last_updated": "2021-01-02 14:38:46",
+                "deleted": 1
+            },
+            {
+                "id": 287838925,
+                "company_id": 1286342,
+                "url": "https://id.linkedin.com/company/pt-hm-sampoerna-tbk",
+                "created": "2020-11-21 01:31:36",
+                "last_updated": "2021-06-27 03:50:45",
+                "deleted": 1
+            },
+            {
+                "id": 346374169,
+                "company_id": 1286342,
+                "url": "https://id.linkedin.com/company/pt-amerta-indah-otsuka",
+                "created": "2021-01-02 14:38:46",
+                "last_updated": "2021-06-27 03:50:45",
+                "deleted": 1
+            },
+            {
+                "id": 456781990,
+                "company_id": 1286342,
+                "url": "https://id.linkedin.com/company/pt-indofood-sukses-makmur-tbk",
+                "created": "2021-09-03 23:40:38",
+                "last_updated": "2025-01-10 06:39:41",
+                "deleted": 0
+            },
+            {
+                "id": 456781991,
+                "company_id": 1286342,
+                "url": "https://id.linkedin.com/company/pt-frisian-flag-indonesia",
+                "created": "2021-09-03 23:40:38",
+                "last_updated": "2025-01-10 06:39:41",
+                "deleted": 0
+            },
+            {
+                "id": 456781992,
+                "company_id": 1286342,
+                "url": "https://id.linkedin.com/company/pt-sayap-mas-utama",
+                "created": "2021-09-03 23:40:38",
+                "last_updated": "2025-01-10 06:39:41",
+                "deleted": 0
+            },
+            {
+                "id": 456781993,
+                "company_id": 1286342,
+                "url": "https://id.linkedin.com/company/pt-nippon-indosari-corpindo-tbk",
+                "created": "2021-09-03 23:40:38",
+                "last_updated": "2025-01-10 06:39:41",
+                "deleted": 0
+            },
+            {
+                "id": 456781994,
+                "company_id": 1286342,
+                "url": "https://id.linkedin.com/company/pt-djarum",
+                "created": "2021-09-03 23:40:38",
+                "last_updated": "2024-08-02 11:19:06",
+                "deleted": 1
+            },
+            {
+                "id": 456781995,
+                "company_id": 1286342,
+                "url": "https://id.linkedin.com/company/pertamina",
+                "created": "2021-09-03 23:40:38",
+                "last_updated": "2025-01-10 06:39:41",
+                "deleted": 0
+            },
+            {
+                "id": 456781996,
+                "company_id": 1286342,
+                "url": "https://id.linkedin.com/company/pt-kalbe-farma",
+                "created": "2021-09-03 23:40:38",
+                "last_updated": "2025-01-10 06:39:41",
+                "deleted": 0
+            },
+            {
+                "id": 456781997,
+                "company_id": 1286342,
+                "url": "https://www.linkedin.com/company/unilever",
+                "created": "2021-09-03 23:40:38",
+                "last_updated": "2022-10-07 13:35:09",
+                "deleted": 1
+            },
+            {
+                "id": 456781998,
+                "company_id": 1286342,
+                "url": "https://id.linkedin.com/company/pt-amerta-indah-otsuka",
+                "created": "2021-09-03 23:40:38",
+                "last_updated": "2023-07-21 05:35:37",
+                "deleted": 1
+            },
+            {
+                "id": 456781999,
+                "company_id": 1286342,
+                "url": "https://id.linkedin.com/company/pt-hm-sampoerna-tbk",
+                "created": "2021-09-03 23:40:38",
+                "last_updated": "2024-11-02 10:18:16",
+                "deleted": 1
+            },
+            {
+                "id": 720392471,
+                "company_id": 1286342,
+                "url": "https://uk.linkedin.com/company/unilever",
+                "created": "2022-10-07 13:35:09",
+                "last_updated": "2023-07-21 05:35:37",
+                "deleted": 1
+            },
+            {
+                "id": 854146660,
+                "company_id": 1286342,
+                "url": "https://id.linkedin.com/company/cimory-group",
+                "created": "2023-07-21 05:35:37",
+                "last_updated": "2024-09-04 20:51:24",
+                "deleted": 1
+            },
+            {
+                "id": 854146661,
+                "company_id": 1286342,
+                "url": "https://id.linkedin.com/company/pt.-ajinomoto-indonesia",
+                "created": "2023-07-21 05:35:37",
+                "last_updated": "2024-06-22 02:06:53",
+                "deleted": 1
+            },
+            {
+                "id": 1023789603,
+                "company_id": 1286342,
+                "url": "https://id.linkedin.com/company/orang-tua-group",
+                "created": "2024-06-22 02:06:53",
+                "last_updated": "2024-07-24 19:18:16",
+                "deleted": 1
+            },
+            {
+                "id": 1040792754,
+                "company_id": 1286342,
+                "url": "https://www.linkedin.com/company/tirta-fresindo-jaya-mayora-group",
+                "created": "2024-07-24 19:18:16",
+                "last_updated": "2025-01-10 06:39:41",
+                "deleted": 0
+            },
+            {
+                "id": 1042876912,
+                "company_id": 1286342,
+                "url": "https://id.linkedin.com/company/orang-tua-group",
+                "created": "2024-08-02 11:19:06",
+                "last_updated": "2024-10-13 18:32:19",
+                "deleted": 1
+            },
+            {
+                "id": 1058720959,
+                "company_id": 1286342,
+                "url": "https://id.linkedin.com/company/pt.-garudafood-putra-putri-jaya-tbk",
+                "created": "2024-09-04 20:51:24",
+                "last_updated": "2024-12-02 11:19:08",
+                "deleted": 1
+            },
+            {
+                "id": 1084074335,
+                "company_id": 1286342,
+                "url": "https://id.linkedin.com/company/bersamabumn",
+                "created": "2024-10-13 18:32:19",
+                "last_updated": "2025-01-10 06:39:41",
+                "deleted": 0
+            },
+            {
+                "id": 1093776506,
+                "company_id": 1286342,
+                "url": "https://id.linkedin.com/company/paragoncorp",
+                "created": "2024-11-02 10:18:16",
+                "last_updated": "2025-01-10 06:39:41",
+                "deleted": 0
+            },
+            {
+                "id": 1115300375,
+                "company_id": 1286342,
+                "url": "https://id.linkedin.com/company/openkerja",
+                "created": "2024-12-02 11:19:08",
+                "last_updated": "2025-01-10 06:39:41",
+                "deleted": 0
+            }
+        ]
+    },
+    {
+        "name": "✔ PT. Mayora Indah Tbk ✪✪✪✪✪",
+        "description": "PT Mayora Indah Tbk adalah Sebagai salah satu kelompok bisnis produk konsumen di Indonesia, Namun Perusahaan PT Mayora Indah Tbk didirikan pada tanggal 17 Februari 1977. Akan Tetapi ada beberapa memproduksi (enam) dari perusahaan sebagai berikut :\n• Astor\n• pelopor permen kopi\n• Beng Beng\n• pelopor wafer stick\n• Permen Kopiko",
+        "industry": "Food and Beverage Services",
+        "visi": null,
+        "misi": null,
+        "company_featured_employees_collection": [
+            {
+                "id": 63280177,
+                "company_id": 32928237,
+                "url": "https://www.linkedin.com/in/carlina-setiawan-027a4040",
+                "created": "2021-04-02 11:49:44",
+                "last_updated": "2022-08-04 09:12:07",
+                "deleted": 1
+            },
+            {
+                "id": 63280178,
+                "company_id": 32928237,
+                "url": "https://www.linkedin.com/in/davit-mugabe-simanjuntak-b50b3b65",
+                "created": "2021-04-02 11:49:44",
+                "last_updated": "2021-05-27 17:24:08",
+                "deleted": 1
+            },
+            {
+                "id": 63280179,
+                "company_id": 32928237,
+                "url": "https://www.linkedin.com/in/zulfikar-gede-firmansyah-1a1020b1",
+                "created": "2021-04-02 11:49:44",
+                "last_updated": "2021-05-21 16:56:18",
+                "deleted": 1
+            },
+            {
+                "id": 63280180,
+                "company_id": 32928237,
+                "url": "https://www.linkedin.com/in/sanofi-arfiyanti-0b3b84124",
+                "created": "2021-04-02 11:49:44",
+                "last_updated": "2021-04-25 02:33:45",
+                "deleted": 1
+            },
+            {
+                "id": 64441507,
+                "company_id": 32928237,
+                "url": "https://www.linkedin.com/in/hardy-hardiriyanto-102a3144",
+                "created": "2021-04-25 02:33:45",
+                "last_updated": "2021-07-01 03:16:43",
+                "deleted": 1
+            },
+            {
+                "id": 65791559,
+                "company_id": 32928237,
+                "url": "https://www.linkedin.com/in/budi-setyohutomo-a3036087",
+                "created": "2021-05-21 16:56:18",
+                "last_updated": "2022-08-04 09:12:07",
+                "deleted": 1
+            },
+            {
+                "id": 66091350,
+                "company_id": 32928237,
+                "url": "https://www.linkedin.com/in/allen-cabrera-dimalanta-680598112",
+                "created": "2021-05-27 17:24:08",
+                "last_updated": "2021-06-18 18:01:27",
+                "deleted": 1
+            },
+            {
+                "id": 66625139,
+                "company_id": 32928237,
+                "url": "https://www.linkedin.com/in/klinten",
+                "created": "2021-06-18 18:01:27",
+                "last_updated": "2021-10-20 17:21:26",
+                "deleted": 1
+            },
+            {
+                "id": 68388064,
+                "company_id": 32928237,
+                "url": "https://www.linkedin.com/in/anton-hendarto-405085b4",
+                "created": "2021-07-01 03:16:43",
+                "last_updated": "2021-10-20 17:21:26",
+                "deleted": 1
+            },
+            {
+                "id": 77878658,
+                "company_id": 32928237,
+                "url": "https://www.linkedin.com/in/febrifebri",
+                "created": "2021-10-20 17:21:26",
+                "last_updated": "2022-08-04 09:12:07",
+                "deleted": 1
+            },
+            {
+                "id": 77878659,
+                "company_id": 32928237,
+                "url": "https://www.linkedin.com/in/yanto-sudarmo-578042a6",
+                "created": "2021-10-20 17:21:26",
+                "last_updated": "2022-05-12 14:23:06",
+                "deleted": 1
+            },
+            {
+                "id": 90539127,
+                "company_id": 32928237,
+                "url": "https://www.linkedin.com/in/anton-hendarto-405085b4",
+                "created": "2022-05-12 14:23:06",
+                "last_updated": "2022-08-04 09:12:07",
+                "deleted": 1
+            },
+            {
+                "id": 122375646,
+                "company_id": 32928237,
+                "url": "https://id.linkedin.com/in/carlina-setiawan-027a4040",
+                "created": "2022-08-04 09:12:07",
+                "last_updated": "2025-01-13 11:44:32",
+                "deleted": 0
+            },
+            {
+                "id": 122375647,
+                "company_id": 32928237,
+                "url": "https://id.linkedin.com/in/febrifebri",
+                "created": "2022-08-04 09:12:07",
+                "last_updated": "2025-01-13 11:44:32",
+                "deleted": 0
+            },
+            {
+                "id": 122375648,
+                "company_id": 32928237,
+                "url": "https://id.linkedin.com/in/budi-setyohutomo-a3036087",
+                "created": "2022-08-04 09:12:07",
+                "last_updated": "2023-05-28 14:09:23",
+                "deleted": 1
+            },
+            {
+                "id": 122375649,
+                "company_id": 32928237,
+                "url": "https://id.linkedin.com/in/anton-hendarto-405085b4/en",
+                "created": "2022-08-04 09:12:07",
+                "last_updated": "2023-01-11 13:06:27",
+                "deleted": 1
+            },
+            {
+                "id": 157589500,
+                "company_id": 32928237,
+                "url": "https://id.linkedin.com/in/felicia-jessie-halim-9b777975",
+                "created": "2023-01-11 13:06:27",
+                "last_updated": "2023-08-03 02:33:15",
+                "deleted": 1
+            },
+            {
+                "id": 164437877,
+                "company_id": 32928237,
+                "url": "https://ph.linkedin.com/in/eugen-soriano-b7a38434",
+                "created": "2023-05-28 14:09:23",
+                "last_updated": "2024-11-05 12:24:24",
+                "deleted": 1
+            },
+            {
+                "id": 185776650,
+                "company_id": 32928237,
+                "url": "https://id.linkedin.com/in/budi-setyohutomo-a3036087",
+                "created": "2023-08-03 02:33:15",
+                "last_updated": "2025-01-13 11:44:32",
+                "deleted": 0
+            },
+            {
+                "id": 215205009,
+                "company_id": 32928237,
+                "url": "https://id.linkedin.com/in/edo-setiawan-pratadana",
+                "created": "2024-11-05 12:24:24",
+                "last_updated": "2025-01-05 10:03:02",
+                "deleted": 1
+            },
+            {
+                "id": 218036526,
+                "company_id": 32928237,
+                "url": "https://kh.linkedin.com/in/arief-alvianto-9ab81141",
+                "created": "2025-01-05 10:03:02",
+                "last_updated": "2025-01-13 11:44:32",
+                "deleted": 0
+            }
+        ],
+        "company_similar_collection": [
+            {
+                "id": 383218016,
+                "company_id": 32928237,
+                "url": "https://id.linkedin.com/company/pt.-mayora-indah-tbk",
+                "created": "2021-04-02 11:49:44",
+                "last_updated": "2021-06-20 17:32:53",
+                "deleted": 1
+            },
+            {
+                "id": 383218017,
+                "company_id": 32928237,
+                "url": "https://id.linkedin.com/company/pt-sayap-mas-utama",
+                "created": "2021-04-02 11:49:44",
+                "last_updated": "2021-06-20 17:32:53",
+                "deleted": 1
+            },
+            {
+                "id": 383218018,
+                "company_id": 32928237,
+                "url": "https://id.linkedin.com/company/pt-indofood-sukses-makmur-tbk",
+                "created": "2021-04-02 11:49:44",
+                "last_updated": "2021-06-20 17:32:53",
+                "deleted": 1
+            },
+            {
+                "id": 383218019,
+                "company_id": 32928237,
+                "url": "https://id.linkedin.com/company/pt-amerta-indah-otsuka",
+                "created": "2021-04-02 11:49:44",
+                "last_updated": "2021-04-22 17:37:47",
+                "deleted": 1
+            },
+            {
+                "id": 383218020,
+                "company_id": 32928237,
+                "url": "https://id.linkedin.com/company/loker-utama-indonesia",
+                "created": "2021-04-02 11:49:44",
+                "last_updated": "2021-06-20 17:32:53",
+                "deleted": 1
+            },
+            {
+                "id": 383218021,
+                "company_id": 32928237,
+                "url": "https://id.linkedin.com/company/bliblidotcom",
+                "created": "2021-04-02 11:49:44",
+                "last_updated": "2021-04-22 17:37:47",
+                "deleted": 1
+            },
+            {
+                "id": 383218022,
+                "company_id": 32928237,
+                "url": "https://id.linkedin.com/company/disnakerja",
+                "created": "2021-04-02 11:49:44",
+                "last_updated": "2021-04-22 17:37:47",
+                "deleted": 1
+            },
+            {
+                "id": 383218023,
+                "company_id": 32928237,
+                "url": "https://id.linkedin.com/company/pt-frisian-flag-indonesia",
+                "created": "2021-04-02 11:49:44",
+                "last_updated": "2021-06-20 17:32:53",
+                "deleted": 1
+            },
+            {
+                "id": 383218024,
+                "company_id": 32928237,
+                "url": "https://id.linkedin.com/company/pt-djarum",
+                "created": "2021-04-02 11:49:44",
+                "last_updated": "2021-06-20 17:32:53",
+                "deleted": 1
+            },
+            {
+                "id": 383218025,
+                "company_id": 32928237,
+                "url": "https://id.linkedin.com/company/openkerja",
+                "created": "2021-04-02 11:49:44",
+                "last_updated": "2021-06-20 17:32:53",
+                "deleted": 1
+            },
+            {
+                "id": 397720905,
+                "company_id": 32928237,
+                "url": "https://id.linkedin.com/company/pt-kalbe-farma",
+                "created": "2021-04-22 17:37:47",
+                "last_updated": "2021-06-20 17:32:53",
+                "deleted": 1
+            },
+            {
+                "id": 397720906,
+                "company_id": 32928237,
+                "url": "https://cn.linkedin.com/company/mayora-food-shandong-co-ltd",
+                "created": "2021-04-22 17:37:47",
+                "last_updated": "2021-06-20 17:32:53",
+                "deleted": 1
+            },
+            {
+                "id": 397720907,
+                "company_id": 32928237,
+                "url": "https://www.linkedin.com/company/unilever",
+                "created": "2021-04-22 17:37:47",
+                "last_updated": "2021-06-20 17:32:53",
+                "deleted": 1
+            },
+            {
+                "id": 434045161,
+                "company_id": 32928237,
+                "url": "https://id.linkedin.com/company/pt.-mayora-indah-tbk",
+                "created": "2021-08-29 09:10:21",
+                "last_updated": "2025-01-13 11:44:32",
+                "deleted": 0
+            },
+            {
+                "id": 434045162,
+                "company_id": 32928237,
+                "url": "https://id.linkedin.com/company/pt-indofood-sukses-makmur-tbk",
+                "created": "2021-08-29 09:10:21",
+                "last_updated": "2025-01-13 11:44:32",
+                "deleted": 0
+            },
+            {
+                "id": 434045163,
+                "company_id": 32928237,
+                "url": "https://id.linkedin.com/company/pt-sayap-mas-utama",
+                "created": "2021-08-29 09:10:21",
+                "last_updated": "2025-01-13 11:44:32",
+                "deleted": 0
+            },
+            {
+                "id": 434045164,
+                "company_id": 32928237,
+                "url": "https://id.linkedin.com/company/pt-frisian-flag-indonesia",
+                "created": "2021-08-29 09:10:21",
+                "last_updated": "2025-01-13 11:44:32",
+                "deleted": 0
+            },
+            {
+                "id": 434045165,
+                "company_id": 32928237,
+                "url": "https://id.linkedin.com/company/pt-kalbe-farma",
+                "created": "2021-08-29 09:10:21",
+                "last_updated": "2024-05-15 12:19:28",
+                "deleted": 1
+            },
+            {
+                "id": 434045166,
+                "company_id": 32928237,
+                "url": "https://cn.linkedin.com/company/mayora-food-shandong-co-ltd",
+                "created": "2021-08-29 09:10:21",
+                "last_updated": "2022-06-03 16:16:23",
+                "deleted": 1
+            },
+            {
+                "id": 434045167,
+                "company_id": 32928237,
+                "url": "https://id.linkedin.com/company/pt-djarum",
+                "created": "2021-08-29 09:10:21",
+                "last_updated": "2024-06-21 21:21:44",
+                "deleted": 1
+            },
+            {
+                "id": 434045168,
+                "company_id": 32928237,
+                "url": "https://id.linkedin.com/company/openkerja",
+                "created": "2021-08-29 09:10:21",
+                "last_updated": "2022-05-12 14:23:06",
+                "deleted": 1
+            },
+            {
+                "id": 434045169,
+                "company_id": 32928237,
+                "url": "https://www.linkedin.com/company/unilever",
+                "created": "2021-08-29 09:10:21",
+                "last_updated": "2022-10-21 05:59:39",
+                "deleted": 1
+            },
+            {
+                "id": 434045170,
+                "company_id": 32928237,
+                "url": "https://id.linkedin.com/company/loker-utama-indonesia",
+                "created": "2021-08-29 09:10:21",
+                "last_updated": "2022-05-12 14:23:06",
+                "deleted": 1
+            },
+            {
+                "id": 619096994,
+                "company_id": 32928237,
+                "url": "https://id.linkedin.com/company/pertamina",
+                "created": "2022-05-12 14:23:06",
+                "last_updated": "2025-01-13 11:44:32",
+                "deleted": 0
+            },
+            {
+                "id": 619096995,
+                "company_id": 32928237,
+                "url": "https://id.linkedin.com/company/pt-nippon-indosari-corpindo-tbk",
+                "created": "2022-05-12 14:23:06",
+                "last_updated": "2025-01-13 11:44:32",
+                "deleted": 0
+            },
+            {
+                "id": 621092549,
+                "company_id": 32928237,
+                "url": "https://www.linkedin.com/company/pt-cipta-niaga-semesta-pt-mayora-indah-tbk-group",
+                "created": "2022-06-03 16:16:23",
+                "last_updated": "2025-01-13 11:44:32",
+                "deleted": 0
+            },
+            {
+                "id": 731027172,
+                "company_id": 32928237,
+                "url": "https://uk.linkedin.com/company/unilever",
+                "created": "2022-10-21 05:59:39",
+                "last_updated": "2023-02-18 13:58:07",
+                "deleted": 1
+            },
+            {
+                "id": 782400349,
+                "company_id": 32928237,
+                "url": "https://id.linkedin.com/company/pt-hm-sampoerna-tbk",
+                "created": "2023-02-18 13:58:07",
+                "last_updated": "2024-08-11 12:07:38",
+                "deleted": 1
+            },
+            {
+                "id": 999373869,
+                "company_id": 32928237,
+                "url": "https://www.linkedin.com/company/tirta-fresindo-jaya-mayora-group",
+                "created": "2024-05-15 12:19:28",
+                "last_updated": "2025-01-13 11:44:32",
+                "deleted": 0
+            },
+            {
+                "id": 1023577385,
+                "company_id": 32928237,
+                "url": "https://id.linkedin.com/company/pt-kalbe-farma",
+                "created": "2024-06-21 21:21:44",
+                "last_updated": "2024-11-27 05:04:46",
+                "deleted": 1
+            },
+            {
+                "id": 1047271344,
+                "company_id": 32928237,
+                "url": "https://id.linkedin.com/company/pt-tirta-fresindo-jaya",
+                "created": "2024-08-11 12:07:38",
+                "last_updated": "2025-01-13 11:44:32",
+                "deleted": 0
+            },
+            {
+                "id": 1111563779,
+                "company_id": 32928237,
+                "url": "https://id.linkedin.com/company/openkerja",
+                "created": "2024-11-27 05:04:46",
+                "last_updated": "2025-01-13 11:44:32",
+                "deleted": 0
+            }
+        ]
+    }
+]

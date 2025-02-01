@@ -4,8 +4,18 @@
     <div class="h-full mt-5 px-3 pb-4 overflow-y-auto bg-white dark:bg-gray-800">
         <ul class="space-y-2 font-medium">
             <li>
-                <a href="#" class="flex items-center p-2 text-white rounded-lg dark:text-white" id="add-chat">
-                    <span class="flex-1 ms-3 text-black whitespace-nowrap">Nasabah Perusahaan</span>
+                <a class="flex items-center p-2 text-white rounded-lg dark:text-white" id="add-chat">
+                    <span class="flex-1 ms-3 text-black whitespace-nowrap">Askbjb Chat </span>
+                    <svg class="flex-shrink-0 w-5 h-5 transition duration-75 dark:text-white dark:group-hover:text-white"
+                        aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 23 23">
+                        <path
+                            d="M11 3.99998H6.8C5.11984 3.99998 4.27976 3.99998 3.63803 4.32696C3.07354 4.61458 2.6146 5.07353 2.32698 5.63801C2 6.27975 2 7.11983 2 8.79998V17.2C2 18.8801 2 19.7202 2.32698 20.362C2.6146 20.9264 3.07354 21.3854 3.63803 21.673C4.27976 22 5.11984 22 6.8 22H15.2C16.8802 22 17.7202 22 18.362 21.673C18.9265 21.3854 19.3854 20.9264 19.673 20.362C20 19.7202 20 18.8801 20 17.2V13M7.99997 16H9.67452C10.1637 16 10.4083 16 10.6385 15.9447C10.8425 15.8957 11.0376 15.8149 11.2166 15.7053C11.4184 15.5816 11.5914 15.4086 11.9373 15.0627L21.5 5.49998C22.3284 4.67156 22.3284 3.32841 21.5 2.49998C20.6716 1.67156 19.3284 1.67155 18.5 2.49998L8.93723 12.0627C8.59133 12.4086 8.41838 12.5816 8.29469 12.7834C8.18504 12.9624 8.10423 13.1574 8.05523 13.3615C7.99997 13.5917 7.99997 13.8363 7.99997 14.3255V16Z"
+                            stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </a>
+                <hr class="my-2 border-t border-gray-300 dark:border-gray-600">
+                <a href="{{ route('ask-bjb-2') }}" class="flex items-center p-2 text-white rounded-lg dark:text-white" id="add-chat">
+                    <span class="flex-1 ms-3 text-black whitespace-nowrap">Coorporate Profiling </span>
                     <svg class="flex-shrink-0 w-5 h-5 transition duration-75 dark:text-white dark:group-hover:text-white"
                         aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 23 23">
                         <path
@@ -27,7 +37,7 @@
                     <span class="ms-3 " id="companyNameDisplay"></span>
                 </a>
             </li>
-            <li id="new-chats" style="{{ Request::is('ask-bjb-2') ? '' : 'display:none' }}" class="flex items-center justify-between p-2 text-gray-900 rounded-lg  hover:bg-blue-400 dark:hover:bg-gray-700 group hover:text-white">
+            <li id="new-chats" style="{{ Request::is('ask-bjb-2') ? '' : 'display:none' }}" class=" {{ Request::is('ask-bjb-2') ? 'active' : '' }} flex items-center justify-between p-2 text-gray-900 rounded-lg hover:bg-blue-400 dark:hover:bg-gray-700 group hover:text-white">
                 <a href="{{ route('ask-bjb-2') }}"
                     class="{{ Request::is('ask-bjb-2') ? 'active' : '' }} flex items-center justify-between  dark:text-white hover:text-white w-full">
                     <div class="flex items-center">
@@ -42,7 +52,7 @@
                     </div>
                 </a>
                 <a href="/ask-bjb"
-                    class="ms-auto -mx-1.5 -my-1.5 inline-flex justify-center items-center w-6 h-6 text-blue-900 rounded-lg focus:ring-2 focus:ring-blue-400 p-1 hover:bg-blue-200 dark:bg-blue-900 dark:text-blue-400 dark:hover:bg-blue-800"
+                    class="{{ Request::is('ask-bjb-2') ? 'active' : '' }} ms-auto -mx-1.5 -my-1.5 inline-flex justify-center items-center w-6 h-6 text-blue-900 rounded-lg focus:ring-2 focus:ring-blue-400 p-1 hover:bg-blue-200 dark:bg-blue-900 dark:text-blue-400 dark:hover:bg-blue-800"
                     aria-label="Close">
                     <span class="sr-only">Close</span>
                     <svg class="w-2.5 h-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"

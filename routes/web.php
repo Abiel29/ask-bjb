@@ -20,13 +20,15 @@ Route::middleware('auth')->group(function () {
         return view('index-2');
     })->name('ask-bjb-2');
 
-    // Logout route
-    Route::post('/logout', [LoginController::class, 'logout'])->name('logout');
-
     // AI Generator API
     // Profiling company
     Route::post('/profile-company', [AIController::class, 'profileCompany'])->name('profile.company');
 
     // Chat AI biasa
     Route::post('/chat-ai', [AIController::class, 'chat'])->name('chat.ai');
+    // routes/web.php
+    Route::get('/export-company-pdf', [AIController::class, 'exportPDF'])->name('export.company.pdf');
+
+    // Logout route
+    Route::post('/logout', [LoginController::class, 'logout'])->name('logout');
 });
