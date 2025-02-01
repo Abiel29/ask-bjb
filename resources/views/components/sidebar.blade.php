@@ -27,7 +27,7 @@
                     <span class="ms-3 " id="companyNameDisplay"></span>
                 </a>
             </li>
-            <li id="new-chats" style="{{ Request::is('ask-bjb-2') ? '' : 'display:none' }}" class="flex items-center justify-between p-2 text-gray-900 rounded-lg hover:bg-blue-400 dark:hover:bg-gray-700 group hover:text-white">
+            <li id="new-chats" style="{{ Request::is('ask-bjb-2') ? '' : 'display:none' }}" class="flex items-center justify-between p-2 text-gray-900 rounded-lg  hover:bg-blue-400 dark:hover:bg-gray-700 group hover:text-white">
                 <a href="{{ route('ask-bjb-2') }}"
                     class="{{ Request::is('ask-bjb-2') ? 'active' : '' }} flex items-center justify-between  dark:text-white hover:text-white w-full">
                     <div class="flex items-center">
