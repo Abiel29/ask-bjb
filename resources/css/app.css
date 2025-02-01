@@ -38,7 +38,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100%; /* Pastikan tingginya fleksibel mengikuti parent */
     padding: 14px; /* Sesuaikan dengan padding input */
     background-color: #f9f9f9;
     border: 1px solid #d1d5db;
@@ -98,7 +97,7 @@ body {
 
 .chat-bubble.assistant {
     align-self: flex-start; /* Pesan asisten di kiri */
-    background-color: #e5e7eb; /* Warna abu-abu muda untuk asisten */
+    background-color: white; /* Warna abu-abu muda untuk asisten */
     color: #000; /* Warna teks hitam */
 }
 
@@ -109,7 +108,7 @@ body {
     text-align: left;
 }
 .chat-bubble.assistant .chat-meta {
-    color: #6b7280; /* Tetap warna hitam untuk asisten */
+    color: white; /* Tetap warna hitam untuk asisten */
     font-size: 0.75rem;
     margin-bottom: 4px;
     text-align: left;
@@ -118,4 +117,24 @@ body {
     font-size: 1rem;
     line-height: 1.5;
     white-space: pre-wrap;
+}
+
+@media print {
+    .pdf-header { display: block !important; }
+    .chat-bubble, .sidebar, .navbar { display: none !important; }
+    .section-title { page-break-after: avoid; }
+    table { page-break-inside: avoid; }
+}
+
+.checkmark {
+    width: 18px;
+    height: 18px;
+    stroke-width: 2;
+}
+
+.file-name {
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
