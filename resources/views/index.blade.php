@@ -40,7 +40,8 @@
                 <div class="p-6 bg-white border border-gray-200 rounded-lg shadow text-center">
                     <p class="text-center font-semibold">Perlu untuk diperhatikan</p>
                     <ol class="text-left ps-5 mt-2 space-y-1 list-decimal list-inside">
-                        <li>Hanya masukkan nama perusahaan saja pada kolom chat. Tidak perlu menambahkan hal lainnya</li>
+                        <li>Hanya masukkan nama perusahaan saja pada kolom chat. Tidak perlu menambahkan hal lainnya
+                        </li>
                     </ol>
                 </div>
             </div>
@@ -51,13 +52,11 @@
         </div>
         <!-- File Status -->
         <div id="file-status" class="text-xs text-gray-700 mt-1 truncate hidden">
-                    <span id="file-name" class="font-medium"></span>
-                    <span id="file-size" class="ml-1"></span>
+            <span id="file-name" class="font-medium"></span>
+            <span id="file-size" class="ml-1"></span>
         </div>
-        <div
-            id="errorContainer"
-            class="text-red-500 mt-2 text-[10pt] sm:text-[11pt] md:text-[12pt] lg:text-[13pt] xl:text-[14pt]"
-        ></div>
+        <div id="errorContainer"
+            class="text-red-500 mt-2 text-[10pt] sm:text-[11pt] md:text-[12pt] lg:text-[13pt] xl:text-[14pt]"></div>
         <!-- Input & File Upload -->
         <div class="mt-4 flex items-center space-x-2 mb-4 w-full">
             <!-- Company Input Section -->
@@ -131,7 +130,7 @@
         fileInput.addEventListener('change', function(e) {
             const file = e.target.files[0];
             const errorContainer = document.getElementById('errorContainer');
-            
+
             if (file) {
                 // Validasi File
                 const allowedTypes = [
@@ -140,21 +139,21 @@
                     'application/msword',
                     'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
                 ];
-                
+
                 // Validasi Type File
                 if (!allowedTypes.includes(file.type)) {
                     errorContainer.textContent = 'Format file tidak didukung (PDF, DOC/DOCX, TXT)';
                     resetFileInput();
                     return;
                 }
-                
+
                 // Validasi Ukuran File
                 if (file.size > 5 * 1024 * 1024) {
                     errorContainer.textContent = 'Ukuran file maksimal 5MB';
                     resetFileInput();
                     return;
                 }
-                
+
                 // Update UI
                 fileLabelText.textContent = 'Ganti File';
                 fileStatus.classList.remove('hidden');
@@ -192,7 +191,7 @@
 
                 companyNameInput.value = "";
             }
-        
+
             if (guideElement) guideElement.style.display = 'none';
             if (chatBoxElement) chatBoxElement.style.height = 'calc(100vh - 200px)';
 
@@ -202,7 +201,7 @@
             } else {
                 errorContainer.textContent = "";
             }
-            
+
             addMessageToChat('user', `Perusahaan: ${companyName}`);
             const loadingId = addLoadingIndicator();
 
@@ -333,23 +332,23 @@
         }
 
         function addDownloadButton(companyName) {
-        const chatBox = document.getElementById('chatBox');
-        const downloadBtn = document.createElement('a');
-        downloadBtn.href = `/export-company-pdf?company_name=${encodeURIComponent(companyName)}`;
-        // Menyesuaikan ukuran tombol yang sedikit lebih besar dan mengurangi jarak dengan elemen di atasnya
-        downloadBtn.className = 'bg-blue-500 text-white px-3 py-2 rounded-lg mt-1 inline-block hover:bg-blue-600';
-        
-        // Mengganti teks dengan ikon download menggunakan inline SVG beserta teks "Download as PDF"
-        downloadBtn.innerHTML = `
+            const chatBox = document.getElementById('chatBox');
+            const downloadBtn = document.createElement('a');
+            downloadBtn.href = `/export-company-pdf?company_name=${encodeURIComponent(companyName)}`;
+            // Menyesuaikan ukuran tombol yang sedikit lebih besar dan mengurangi jarak dengan elemen di atasnya
+            downloadBtn.className = 'bg-blue-500 text-white px-3 py-2 rounded-lg mt-1 inline-block hover:bg-blue-600';
+
+            // Mengganti teks dengan ikon download menggunakan inline SVG beserta teks "Download as PDF"
+            downloadBtn.innerHTML = `
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5m0 0l5-5m-5 5V4" />
             </svg>
             <span class="ml-2 inline-block align-middle">Download as PDF</span>
         `;
-        
-        downloadBtn.target = '_blank';
-        chatBox.appendChild(downloadBtn);
-    }
+
+            downloadBtn.target = '_blank';
+            chatBox.appendChild(downloadBtn);
+        }
 
         document.getElementById('remove-chat').addEventListener('click', function() {
             console.log('ashadad')

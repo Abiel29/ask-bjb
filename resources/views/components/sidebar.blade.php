@@ -4,7 +4,7 @@
     <div class="h-full mt-5 px-3 pb-4 overflow-y-auto bg-white dark:bg-gray-800">
         <ul class="space-y-2 font-medium">
             <li>
-                <a class="flex items-center p-2 text-white rounded-lg dark:text-white" id="add-chat">
+                <a class="flex items-center p-2 text-white rounded-lg dark:text-white" href="#">
                     <span class="flex-1 ms-3 text-black whitespace-nowrap">Askbjb Chat </span>
                     <svg class="flex-shrink-0 w-5 h-5 transition duration-75 dark:text-white dark:group-hover:text-white"
                         aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 23 23">
